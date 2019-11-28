@@ -1,0 +1,19 @@
+Evaluation1: 
+Q1.Ans: Take ...sun.
+Q2.Ans: trees, flowers,
+Q3.Ans: cellulose
+Q4.Ans: nucleus
+Q5.Ans: dryer out 
+
+Evaluation2: 
+Q1.Ans: Both.
+Q2.Ans: Carbon..Oxy..
+Q3.Ans: ...
+Q4.Ans: yes
+
+Evaluation3: 
+Q1.Ans: root and  shoot
+Q2.Ans: root
+Q3.Ans: all
+Q4.Ans: stem;
+Q5.Ans: true

@@ -1,0 +1,92 @@
+/* Web Project Phase 2 */
+
+h1 { font-size: 400%; }
+
+h1 img { float: left;
+		 padding: 0em 0em; }
+	
+nav { text-align: center;
+	  clear: left;
+	  font-size: 18px;
+	  word-spacing: 50px; }
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+a { color: #0275d8;
+    text-decoration: none; }
+
+a:hover { color: grey;
+          text-decoration: underline; }
+
+h2 { font-size: 200%; }
+		 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body { margin-right: 10em; 
+	   margin-left: 10em;
+	`  background-color: rgba(229, 249, 223, 0.3); }
+
+main { background-image: url("images/tropical-alpha.php");}
+
+p { font-size: 150%;
+	padding: 0em 4em; }
+	
+
+ul { 
+	list-style-image : url("images/list.png") ;
+	font-size: 150%;
+	 clear: right; 
+	 padding: 0em 4em; }	
+	 
+.float { float: right; }
+
+.innerList { font-size: 100%; }
+
+		 table {
+		
+		   border-collapse: collapse;
+		   width: 100%;
+		   
+		 }
+
+		 th, td {
+		   text-align: left;
+		   padding: 8px;
+		   border:1px solid #83AF49 ;
+		   
+		 }
+
+		 tr:nth-child(even){background-color: #f2f2f2}
+
+		 th {
+		   background-color: #759944;
+		   color: #FFFFFF;
+		 }
+
+		 footer { text-align: center;
+		 		 font-size: 18px; }

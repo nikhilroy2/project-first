@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Evaluation 2: Benefits of plants</title>
+<link rel="stylesheet" href="StyleSheet.css">
+</head>
+
+<body>
+
+<header>
+
+<h1><img src="images/logo-trans.png" alt="" width="130" height="120">World of Plants</h1>
+
+<nav>
+<a href="Profile.html">Profile</a>
+<a href="Lessons.html">Lessons</a>
+<a href="Evaluation.html">Evaluation</a>
+ </nav>
+ 
+<hr>
+
+</header>
+
+<ul class="breadcrumb">
+  <li><a href="HomePage.html">Homepage</a></li>
+  <li><a href="Evaluation.html">Evaluation</a></li>
+  <li>Evaluation 2: Benefits of plants</li>
+</ul>
+
+<main>
+  <form action="/action_page.php" name="form" onsubmit="return submitAnswers()">
+  <h2>Evaluation 2: Benefits of plants</h2>
+  <fieldset>
+    <legend>Evaluation 2: Benefits of plants</legend>
+
+      <!----Qestion number 1-->
+<p><strong>Question 1:</strong> Which statement is true? </p><br>
+  <ul><li><label class="qrResult"><input type="radio" name="q1" value="a">Both statements listed below are true</label></li><br>
+  <li><label class="wrong_label"><input type="radio" name="q1" value="b">Plants help to clean water</label></li><br>
+ <li><label class="wrong_label"> <input type="radio" name="q1" value="c">Plants are really important for the planet and for all living things.</label></li><br>  
+  </ul>
+  
+  
+<hr> 
+      <!----Qestion number 2-->
+
+<p><strong>Question 2:</strong> Plants absorb _____ and release _____ from their leaves.</p><br>
+ <ul><li><label class="wrong_label"> <input type="radio" name="q2" value="a"> Oxygen, Oxygen</label></li><br>
+ <li><label class="wrong_label">  <input type="radio" name="q2" value="b"> Carbon dioxide, Carbon dioxide</label></li><br>
+ <li><label class="qrResult">  <input type="radio" name="q2" value="c">  Carbon dioxide, Oxygen</label></li><br> 
+</ul>
+  
+<hr> 
+      <!----Qestion number 3-->
+
+<p><strong>Question 3:</strong> Write one benefit of plants in our lives: </p><br>
+<ul>
+<li><label class="qr3bg"><input class="qr3Answer" type="text" name="q3" value=""
+ oninput="letterinputFunction(this)"  ></label></li><br>
+</ul>
+	
+<hr> 
+      <!----Qestion number 4-->
+
+<p><strong>Question 4:</strong> Do plants have a huge impact on health and are also an economic benefit?</p>
+<ul>
+    <li><label>
+      <select class="qr4Answer" required>
+          <option value="volvo">Yes</option>
+          <option value="saab">No</option>
+        </select></label></li><br>
+  </ul>
+  <input type="submit" value="Show Result">
+  <input type="reset" value="Reset" onclick="resetBtn()">
+
+  <!-- <input type="submit" value="Show Score">
+  <button type="button" onclick="btnShowAnswer()">Show Answer</button> -->
+
+
+  
+</form>
+</fieldset>
+</main>
+
+<hr>
+
+<footer> 
+<a href="AboutUs.html">About Us </a> 
+<br>
+<a href="ContactUs.html">Contact Us</a> 
+<br>
+<a href="Sitemap.html">Sitemap</a>
+<br>
+©2019 World of Plants </footer>
+<script src="js/evaluation2.js"></script>
+</body>
+</html>
